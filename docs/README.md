@@ -1,0 +1,1 @@
+## gradle勉強用のdocs
