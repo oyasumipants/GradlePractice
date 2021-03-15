@@ -1,0 +1,6 @@
+task helloWorld {
+        description = "こんにちは！します。"
+        doLast {
+                println "Hello, world!"
+        }
+}
