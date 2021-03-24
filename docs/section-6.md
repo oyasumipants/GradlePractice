@@ -1,6 +1,8 @@
 
 `gradle hello`
 
+`console`
+
 ```
 Starting a Gradle Daemon, 1 busy Daemon could not be reused, use --status for details
 
@@ -13,16 +15,25 @@ BUILD SUCCESSFUL in 4s
 
 `gradle -q hello`
 
+`console`
+
 ```
 Hello world!
 ```
 
+左シフト `<<` は使われなくなったので、エラーが起きる
+
 `gradle hello`
+
+`console`
+
 ```
 task hello << {
 	println 'Hello world'
 }
 ```
+
+`console`
 
 ```
 FAILURE: Build failed with an exception.
